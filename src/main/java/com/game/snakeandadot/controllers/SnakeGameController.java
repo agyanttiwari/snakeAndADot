@@ -15,9 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.game.snakeandadot.game.Snake;
 import com.game.snakeandadot.game.SnakeAndADot;
-
-import models.SnakeDotPositionResponse;
-import models.startGameRequest;
+import com.game.snakeanddot.models.SnakeDotPositionResponse;
+import com.game.snakeanddot.models.startGameRequest;
 
 @RestController
 public class SnakeGameController {

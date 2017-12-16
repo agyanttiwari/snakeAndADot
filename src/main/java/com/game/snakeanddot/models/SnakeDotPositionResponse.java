@@ -1,4 +1,4 @@
-package models;
+package com.game.snakeanddot.models;
 
 import java.awt.Point;
 import java.util.ArrayList;

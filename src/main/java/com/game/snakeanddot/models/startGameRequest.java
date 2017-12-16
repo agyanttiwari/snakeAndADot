@@ -1,4 +1,4 @@
-package models;
+package com.game.snakeanddot.models;
 
 public class startGameRequest {
 	int height;
