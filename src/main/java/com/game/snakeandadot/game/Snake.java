@@ -11,6 +11,10 @@ public class Snake {
 	private boolean nextPositionCalculated = false;
 	private Point nextHeadPosition;
 
+	public  List<Point> getSnakePoints() {
+		return this.snakePoints;
+	}
+	
 	public int getLength() {
 		return snakePoints.size();
 	}
