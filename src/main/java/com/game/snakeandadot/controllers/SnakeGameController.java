@@ -1,23 +1,18 @@
 package com.game.snakeandadot.controllers;
 
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
-
 import java.io.IOException;
 
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.game.snakeandadot.game.Snake;
 import com.game.snakeandadot.game.SnakeAndADot;
 import com.game.snakeanddot.models.SnakeDotPositionResponse;
 import com.game.snakeanddot.models.startGameRequest;
 
+@CrossOrigin
 @RestController
 public class SnakeGameController {
 	
